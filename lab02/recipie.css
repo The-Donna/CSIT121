@@ -1,0 +1,36 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	color: #1F51FF;
+	font-family: cursive, sans-serif, monospace;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: #324ab2;
+	font-family: serif, sans-serif, monospace;
+}
+
+h3 {
+	color: #324ab2;
+	font-size: 20px ;
+	text-transform: uppercase;
+}
+
+li {
+	color: floralwhite;
+	font-family: cursive, sans-serif, monospace;
+	text-transform: full-size-kana;
+	margin-left: 20px;
+}
+
+p {
+	color: #324ab2;
+	font-size: 20px;
+}
+aside {
+	color: #324ab2;
+	text-align: center;
+}
