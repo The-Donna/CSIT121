@@ -1,0 +1,67 @@
+body {
+	background-color: darkcyan ;
+	background-image: url(Images/aesthetics.jpg);
+	background-size: 100%;
+}
+
+nav {
+	background-color: grey;
+	padding: 14px 16px;
+	position: sticky;
+	top: 0;
+	font-family: Papyrus, sans-serif, monospace;
+}
+
+a {
+	color: darkred;
+	padding: 12px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+main {
+	font-family: Papyrus,sans-serif, serif;
+	font-size: 20px;
+}
+
+#move {
+	float: right;
+}
+
+header {
+	background-color: navajowhite;
+	text-align: center;
+	font-family: "Brush Script MT", serif, sans-serif;
+	font-size: 24px;
+}
+
+.contain {
+	background-color: darkcyan;
+	width: 60%;
+	margin: auto;
+	border: 10px solid darkred;
+	padding: 5px;
+}
+
+footer {
+	text-align: center;
+	background-color: navajowhite;
+	padding: 0.2em;
+	font-family: "Times New Roman", sans-serif, serif;
+}
+
+a:hover {
+	color: black;
+}
+
+.active {
+	background-color: black;
+}
+
+span {
+	color: darkred;
+}
+
+img {
+	width: 100%;
+}
