@@ -1,0 +1,188 @@
+body {
+	background-color: #40E0D0;
+}
+
+header {
+	color: #40E0D0;
+	font-family: cursive, sans-serif, monospace;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 50px;
+}
+
+h3 {
+	color: navajowhite;
+	font-size: 20px ;
+	text-transform: uppercase;
+}
+
+li {
+	color: floralwhite;
+	font-family: cursive, sans-serif, monospace;
+	margin-left: 20px;
+}
+
+p {
+	color: navajowhite;
+	font-size: 20px;
+}
+
+img {
+	position: absolute;
+	border-radius: 75px;
+	padding: 2px;
+	bottom: -59px;
+	right: 140px;
+}
+
+.container {
+	width: 85%;
+	margin: auto;
+	border: 8px solid darkblue;	
+	background-color: black;
+	min-height: 768px;
+}
+
+table {
+		width: 85%;
+}
+
+@media screen and (min-width: 768px) {
+  .container{
+ 	 flex-direction:column;
+ 	 margin: auto;
+ }
+  .header {
+   font-family: sans-serif, cursive;
+ 	 padding: 5px;	
+ }
+  .li {
+	 color: floralwhite;
+ }
+  .h3{
+   text-align: center;
+ }
+
+.ingredients {
+	position: relative;
+	margin: 10px;
+	border: 2px solid #40E0D0;
+	box-sizing: border-box;
+	width: 39.5%;
+	overflow-wrap: anywhere;
+	background-color: darkblue;
+	padding: 2px;
+}
+
+.instructions {
+	position: absolute;
+	top: 100px;
+	right: 140px;
+	margin: auto;
+	float: right;
+	box-sizing: border-box;
+	width: 47.5%;
+	overflow-wrap: anywhere;
+	border: 2px solid #40E0D0;
+	background-color: darkblue;
+	padding: 2px;
+}
+
+.para {
+	position: absolute;
+	bottom: -56px;
+	left: 141px;
+	box-sizing: border-box;
+	width: 65%;
+	overflow-wrap: anywhere;
+	padding: 5px;
+	border: 2px solid #40E0D0;
+	background-color: darkblue;
+}
+
+a:link {
+	color: darkred;
+}
+
+a:visited {
+	color: darkcyan;
+}
+
+a:hover {
+	color: black;
+}
+}
+table {
+	background-color: darkblue;
+	width: 85%;
+	margin: auto;
+	border: 5px inset black;
+	padding: 10px;
+	color: lightgrey;
+}
+caption {
+	font-size: 34px;
+	font-family: Monaco, Garamond, "Lucida Console";
+	color: darkcyan;
+}
+thead {
+	font-size: 18px;
+}
+th {
+	text-align: left;
+}
+td[headers="percent"] {
+	text-align: right;
+}
+
+th[colspan="3"] {
+	text-align: right;
+}
+td[headers="fat"] {
+	text-align: center;
+}
+
+td:first-child {
+	background-color: black;
+}
+td:last-child {
+	background-color: darkcyan;
+}
+
+form {
+	background-color: darkblue;
+	width: 85%;
+	margin: auto;
+	padding: 10px;
+	border: 5px inset black;
+}
+form h3 {
+	font-size: 24px;
+	text-align: center;
+	color: #40E0D0;
+}
+label{
+	color: lightgrey;
+	font-family: monospace, sans-serif, "Lucida Console";
+}
+form p {
+	font-size: 18px;
+	margin-bottom: 0;
+	font-family: cursive, sans-serif, monospace;
+}
+input[type="radio"] {
+  margin-right: 10px;
+}
+input[type="submit"], input[type="reset"] {
+	font-family: monospace, sans-serif, "Lucida Console";
+	cursor: pointer;
+	padding: 5px;
+	color: darkblue;
+}
+video {
+	width: 85%;
+	height: 500px;
+	border: 5px solid black;
+	display: block;
+  margin: 0 auto;
+}
